@@ -41,7 +41,7 @@ btn.addEventListener("click", () => {
       box.innerHTML = ":" + data.BoxOffice;
       imbr.innerHTML = ":" + data.imbdRating;
       tor.innerHTML = ":" + data.Ratings[1].Value;
-      searchBox.value = "";
+     
     });
   // console.log(data);
 });
